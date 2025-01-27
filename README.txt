@@ -1,5 +1,5 @@
-Contains small POC project that iterates through trademarks api and tries detecting what appears to be duplicates.
-The process stops after detecting 100 duplicates or when reaching 500*50 documents.
+Contains small POC project that iterates through Patentstyrets trademarks api and tries detecting what appears to be duplicates.
+The process stops after detecting 100 duplicates or when hvaing iterated 500*50 documents.
 
 docker build . -t trademarks-api-iteration
 docker run -e API_KEY=<api key> trademarks-api-iteration
